@@ -144,11 +144,12 @@
     </nav>
 
     <!-- Hero Section -->
-    <section
+ <section
       id="beranda"
       class="pt-32 pb-20 md:pt-40 md:pb-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col md:flex-row items-center"
     >
-      <div class="md:w-1/2 md:pr-12 text-center md:text-left">
+      <!-- Teks (Di bawah saat mobile, di kiri saat desktop) -->
+      <div class="order-2 md:order-1 mt-12 md:mt-0 md:w-1/2 md:pr-12 text-center md:text-left">
         <p class="text-gold font-semibold tracking-wider uppercase mb-2">
           Praktisi Bimbingan & Konseling
         </p>
@@ -182,7 +183,9 @@
           </a>
         </div>
       </div>
-      <div class="md:w-1/2 mt-12 md:mt-0 relative">
+
+      <!-- Foto (Di atas saat mobile, di kanan saat desktop) -->
+      <div class="order-1 md:order-2 md:w-1/2 relative">
         <!-- Tempat Foto: Ganti URL ini dengan foto aslinya nanti -->
         <div class="relative w-72 h-72 md:w-96 md:h-96 mx-auto">
           <div
